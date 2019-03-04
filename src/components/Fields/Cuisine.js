@@ -5,9 +5,18 @@ import CreatableSelect from 'react-select/lib/Creatable';
 
 import { ReactSelectWrapper, toOpt } from '@groceristar/select-component';
 
+
+
+
 import {
   getAttribute, getPlaceholder
 } from "../../selectors/selector";
+
+
+
+
+
+
 
 // function toOpt(arr) {
 //     let Opt= arr.reduce((intermediate, item, index) => {
