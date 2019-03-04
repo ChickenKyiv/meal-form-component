@@ -20,6 +20,12 @@ import Form from '~/Form/Form'
 
 import ExampleView from '@v/ExampleView'
 
+
+import {
+  AddRecipeModal,
+  EditRecipeModal
+} from '~/rbox'
+
 export {
   Allergy,
   Attribute,
@@ -38,4 +44,7 @@ export {
 
   ExampleView,
 
+
+  AddRecipeModal,
+  EditRecipeModal
 }
