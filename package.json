@@ -1,6 +1,6 @@
 {
   "name": "@groceristar/meal-form-component",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "module to use meal form between projects",
   "main": "dist/index.js",
   "repository": "https://github.com/ChickenKyiv/meal-form-component",
