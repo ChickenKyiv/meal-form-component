@@ -37,6 +37,7 @@
     "shx": "^0.3.2"
   },
   "dependencies": {
+    "@groceristar/cards-wrapper": "^1.0.13",
     "@groceristar/groceristar-fetch": "^1.2.8",
     "@groceristar/select-component": "^1.0.8",
     "antd": "^3.14.0",
