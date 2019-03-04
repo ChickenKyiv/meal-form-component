@@ -9,12 +9,14 @@ import data from '@groceristar/groceristar-fetch/chickenkyiv';
 
 /** Card with CardHeader and CardBody */
 export default class List extends React.Component {
+
   constructor(props){
     super(props)
     this.state = {
       recipes: props.recipes
     }
   }
+  
   render() {
     console.log(data.getIngredients3());
     console.log(data.getMenu());
