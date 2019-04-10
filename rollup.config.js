@@ -10,6 +10,25 @@ const extensions = [
 
 const name = 'MealFormComponents'
 
+const { external, globals } = {
+
+  "globals": {
+    "react": "React",
+    "react-dom": "ReactDom",
+    "react-router-dom": "react-router-dom",
+    'antd': 'antd',
+    'lodash': 'lodash',
+    'uuid':'uuid'
+  },
+
+  "external": [
+    'antd',
+    'lodash',
+    'uuid',
+    'react',
+    'react-dom'
+  ]
+};
 
 export default {
   input: './src/index.js',
