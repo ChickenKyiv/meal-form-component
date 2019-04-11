@@ -615,6 +615,12 @@
   dependencies:
     regenerator-runtime "^0.12.0"
 
+"@babel/runtime@^7.4.3":
+  version "7.4.3"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.3.tgz#79888e452034223ad9609187a0ad1fe0d2ad4bdc"
+  dependencies:
+    regenerator-runtime "^0.13.2"
+
 "@babel/template@^7.0.0", "@babel/template@^7.1.0", "@babel/template@^7.2.2", "@babel/template@^7.4.0":
   version "7.4.0"
   resolved "https://registry.yarnpkg.com/@babel/template/-/template-7.4.0.tgz#12474e9c077bae585c5d835a95c0b0b790c25c8b"
@@ -693,12 +699,12 @@
   resolved "https://registry.yarnpkg.com/@emotion/utils/-/utils-0.8.2.tgz#576ff7fb1230185b619a75d258cbc98f0867a8dc"
 
 "@groceristar/cards-wrapper@^1.0.13":
-  version "1.0.20"
-  resolved "https://registry.yarnpkg.com/@groceristar/cards-wrapper/-/cards-wrapper-1.0.20.tgz#3d4e78f0651037e10c52ad2756d732c9b9b6127f"
+  version "1.0.21"
+  resolved "https://registry.yarnpkg.com/@groceristar/cards-wrapper/-/cards-wrapper-1.0.21.tgz#3015cbf405fce1b6c2f028c547bc84d277c683af"
   dependencies:
-    "@react-pdf/renderer" "^1.2.0"
-    antd "^3.13.2"
-    react-image "^2.0.0"
+    "@react-pdf/renderer" "^1.5.1"
+    antd "^3.16.2"
+    react-image "^2.1.1"
     uuid "^3.3.2"
 
 "@groceristar/groceristar-fetch@^2.1.10":
@@ -901,69 +907,41 @@
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@react-pdf/png-js/-/png-js-1.0.0.tgz#00fcb969dca4ce82a0a7673413ade039e47b361e"
 
-"@react-pdf/renderer@^1.2.0":
-  version "1.4.0"
-  resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.4.0.tgz#75da0901e3ceca437ff95cfa65c55b0c9a320e79"
+"@react-pdf/renderer@^1.5.1":
+  version "1.5.1"
+  resolved "https://registry.yarnpkg.com/@react-pdf/renderer/-/renderer-1.5.1.tgz#a872332394bac17256f90bb9b74fa67cbebd4d45"
   dependencies:
+    "@babel/runtime" "^7.3.1"
     "@react-pdf/fontkit" "^1.13.0"
     "@react-pdf/pdfkit" "^1.2.0"
     "@react-pdf/png-js" "^1.0.0"
-    "@react-pdf/script-itemizer" "^0.2.1"
-    "@react-pdf/textkit-core" "0.2.5"
-    "@textkit/justification-engine" "^0.1.9"
-    "@textkit/pdf-renderer" "^0.1.13"
-    "@textkit/text-decoration-engine" "^0.1.10"
-    babel-runtime "^6.26.0"
+    "@react-pdf/textkit" "^0.3.1"
     blob-stream "^0.1.3"
     cross-fetch "^3.0.1"
     emoji-regex "^7.0.3"
-    hyphenation.en-us "^0.2.1"
-    hypher "^0.2.5"
-    is-url "^1.2.2"
-    lodash.groupby "^4.6.0"
-    lodash.isfunction "^3.0.8"
-    lodash.merge "^4.6.1"
-    lodash.pick "^4.4.0"
-    lodash.topairsin "^4.3.0"
+    is-url "^1.2.4"
     media-engine "^1.0.3"
     page-wrapping "^1.1.0"
-    react "^16.4.1"
-    react-reconciler "^0.19.1"
-    yoga-layout-prebuilt "1.9.3"
+    ramda "^0.26.1"
+    react "^16.8.3"
+    react-reconciler "^0.20.1"
+    yoga-layout-prebuilt "^1.9.3"
 
-"@react-pdf/script-itemizer@^0.2.1":
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/@react-pdf/script-itemizer/-/script-itemizer-0.2.1.tgz#673e9a7812823d53e7d41d83515930fb318ae0cb"
+"@react-pdf/textkit@^0.3.1":
+  version "0.3.1"
+  resolved "https://registry.yarnpkg.com/@react-pdf/textkit/-/textkit-0.3.1.tgz#3b9ee207907592fa04e4cede87c64449550d1731"
   dependencies:
+    "@babel/runtime" "^7.4.3"
     "@react-pdf/unicode-properties" "^2.2.0"
-
-"@react-pdf/textkit-core@0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@react-pdf/textkit-core/-/textkit-core-0.2.5.tgz#c0d4ebc6b5a6addbf74371db4c5bf9fe6df8279f"
-  dependencies:
-    "@react-pdf/unicode-properties" "^2.2.0"
-    cubic2quad "^1.1.0"
+    babel-runtime "^6.26.0"
+    hyphen "^1.1.1"
+    ramda "^0.26.1"
 
 "@react-pdf/unicode-properties@^2.2.0":
   version "2.2.0"
   resolved "https://registry.yarnpkg.com/@react-pdf/unicode-properties/-/unicode-properties-2.2.0.tgz#f109eaac244ceb108011d4038cee4cc787cb40f3"
   dependencies:
     unicode-trie "^0.3.0"
-
-"@textkit/justification-engine@^0.1.9":
-  version "0.1.9"
-  resolved "https://registry.yarnpkg.com/@textkit/justification-engine/-/justification-engine-0.1.9.tgz#4a964ddccd48b6f20eacf1ae17a011e3e2cf9093"
-  dependencies:
-    lodash.clone "^4.5.0"
-    lodash.merge "^4.6.1"
-
-"@textkit/pdf-renderer@^0.1.13":
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/@textkit/pdf-renderer/-/pdf-renderer-0.1.13.tgz#05b10ee1e5a75152ffff4cde7c13c192c2d223c4"
-
-"@textkit/text-decoration-engine@^0.1.10":
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@textkit/text-decoration-engine/-/text-decoration-engine-0.1.10.tgz#b97b725b62e707ddd08c8b3a2d914659ef3df613"
 
 "@types/babel__core@^7.1.0":
   version "7.1.0"
@@ -1127,7 +1105,7 @@ ant-design-palettes@^1.1.3:
   dependencies:
     tinycolor2 "^1.4.1"
 
-antd@^3.11.2, antd@^3.13.2, antd@^3.16.2:
+antd@^3.11.2, antd@^3.16.2:
   version "3.16.2"
   resolved "https://registry.yarnpkg.com/antd/-/antd-3.16.2.tgz#a3b4a844a6de82e6c87c96f88dda2317f4d89075"
   dependencies:
@@ -1908,10 +1886,6 @@ cssstyle@^1.0.0:
 csstype@^2.2.0, csstype@^2.5.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/csstype/-/csstype-2.6.2.tgz#3043d5e065454579afc7478a18de41909c8a2f01"
-
-cubic2quad@^1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/cubic2quad/-/cubic2quad-1.1.1.tgz#69b19c61a3f5b41ecf2f1d5fae8fb03415aa8b15"
 
 dashdash@^1.12.0:
   version "1.14.1"
@@ -2899,15 +2873,9 @@ http-signature@~1.2.0:
     jsprim "^1.2.2"
     sshpk "^1.7.0"
 
-hyphenation.en-us@^0.2.1:
-  version "0.2.1"
-  resolved "https://registry.yarnpkg.com/hyphenation.en-us/-/hyphenation.en-us-0.2.1.tgz#6b937323ff40da474ecb8c07eaeb79d6ae28fed8"
-  dependencies:
-    hypher "*"
-
-hypher@*, hypher@^0.2.5:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/hypher/-/hypher-0.2.5.tgz#2fe456ed2a3fd4ed0d9e428617181c59f9a6dd02"
+hyphen@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/hyphen/-/hyphen-1.1.1.tgz#bb0b4054788476ab13bdbaed221a6d4c67353068"
 
 iconv-lite@0.4.24, iconv-lite@^0.4.17, iconv-lite@^0.4.4, iconv-lite@~0.4.13:
   version "0.4.24"
@@ -3182,7 +3150,7 @@ is-typedarray@~1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-typedarray/-/is-typedarray-1.0.0.tgz#e479c80858df0c1b11ddda6940f96011fcda4a9a"
 
-is-url@^1.2.2:
+is-url@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/is-url/-/is-url-1.2.4.tgz#04a4df46d28c4cff3d73d01ff06abeb318a1aa52"
 
@@ -3858,10 +3826,6 @@ lodash._getnative@^3.0.0:
   version "3.9.1"
   resolved "https://registry.yarnpkg.com/lodash._getnative/-/lodash._getnative-3.9.1.tgz#570bc7dede46d61cdcde687d65d3eecbaa3aaff5"
 
-lodash.clone@^4.5.0:
-  version "4.5.0"
-  resolved "https://registry.yarnpkg.com/lodash.clone/-/lodash.clone-4.5.0.tgz#195870450f5a13192478df4bc3d23d2dea1907b6"
-
 lodash.debounce@^4.0.0, lodash.debounce@^4.0.8:
   version "4.0.8"
   resolved "https://registry.yarnpkg.com/lodash.debounce/-/lodash.debounce-4.0.8.tgz#82d79bff30a67c4005ffd5e2515300ad9ca4d7af"
@@ -3878,10 +3842,6 @@ lodash.get@^4.4.2:
   version "4.4.2"
   resolved "https://registry.yarnpkg.com/lodash.get/-/lodash.get-4.4.2.tgz#2d177f652fa31e939b4438d5341499dfa3825e99"
 
-lodash.groupby@^4.6.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/lodash.groupby/-/lodash.groupby-4.6.0.tgz#0b08a1dcf68397c397855c3239783832df7403d1"
-
 lodash.isarguments@^3.0.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/lodash.isarguments/-/lodash.isarguments-3.1.0.tgz#2f573d85c6a24289ff00663b491c1d338ff3458a"
@@ -3894,7 +3854,7 @@ lodash.isequal@^4.5.0:
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/lodash.isequal/-/lodash.isequal-4.5.0.tgz#415c4478f2bcc30120c22ce10ed3226f7d3e18e0"
 
-lodash.isfunction@^3.0.8, lodash.isfunction@^3.0.9:
+lodash.isfunction@^3.0.9:
   version "3.0.9"
   resolved "https://registry.yarnpkg.com/lodash.isfunction/-/lodash.isfunction-3.0.9.tgz#06de25df4db327ac931981d1bdb067e5af68d051"
 
@@ -3910,14 +3870,6 @@ lodash.keys@^3.1.2:
     lodash.isarguments "^3.0.0"
     lodash.isarray "^3.0.0"
 
-lodash.merge@^4.6.1:
-  version "4.6.1"
-  resolved "https://registry.yarnpkg.com/lodash.merge/-/lodash.merge-4.6.1.tgz#adc25d9cb99b9391c59624f379fbba60d7111d54"
-
-lodash.pick@^4.4.0:
-  version "4.4.0"
-  resolved "https://registry.yarnpkg.com/lodash.pick/-/lodash.pick-4.4.0.tgz#52f05610fff9ded422611441ed1fc123a03001b3"
-
 lodash.sortby@^4.7.0:
   version "4.7.0"
   resolved "https://registry.yarnpkg.com/lodash.sortby/-/lodash.sortby-4.7.0.tgz#edd14c824e2cc9c1e0b0a1b42bb5210516a42438"
@@ -3929,10 +3881,6 @@ lodash.throttle@^4.0.0:
 lodash.tonumber@^4.0.3:
   version "4.0.3"
   resolved "https://registry.yarnpkg.com/lodash.tonumber/-/lodash.tonumber-4.0.3.tgz#0b96b31b35672793eb7f5a63ee791f1b9e9025d9"
-
-lodash.topairsin@^4.3.0:
-  version "4.3.0"
-  resolved "https://registry.yarnpkg.com/lodash.topairsin/-/lodash.topairsin-4.3.0.tgz#1a6966d46484898fca42522286f1529a4397ad3b"
 
 lodash@^4.15.0, lodash@^4.16.5, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.4, lodash@^4.17.5, lodash@^4.3.0:
   version "4.17.11"
@@ -4717,6 +4665,10 @@ railroad-diagrams@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/railroad-diagrams/-/railroad-diagrams-1.0.0.tgz#eb7e6267548ddedfb899c1b90e57374559cddb7e"
 
+ramda@^0.26.1:
+  version "0.26.1"
+  resolved "https://registry.yarnpkg.com/ramda/-/ramda-0.26.1.tgz#8d41351eb8111c55353617fc3bbffad8e4d35d06"
+
 randexp@0.4.6:
   version "0.4.6"
   resolved "https://registry.yarnpkg.com/randexp/-/randexp-0.4.6.tgz#e986ad5e5e31dae13ddd6f7b3019aa7c87f60ca3"
@@ -5119,7 +5071,7 @@ react-final-form@^4.0.2:
   dependencies:
     "@babel/runtime" "^7.3.4"
 
-react-image@^2.0.0, react-image@^2.1.1:
+react-image@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/react-image/-/react-image-2.1.1.tgz#325b3f9fe828347b6cc063a59bc8e27f1ca46b00"
   dependencies:
@@ -5159,14 +5111,14 @@ react-popper@^1.3.3:
     typed-styles "^0.0.7"
     warning "^4.0.2"
 
-react-reconciler@^0.19.1:
-  version "0.19.1"
-  resolved "https://registry.yarnpkg.com/react-reconciler/-/react-reconciler-0.19.1.tgz#0735fc290617780a2c9735218a4762e7d77797e6"
+react-reconciler@^0.20.1:
+  version "0.20.4"
+  resolved "https://registry.yarnpkg.com/react-reconciler/-/react-reconciler-0.20.4.tgz#3da6a95841592f849cb4edd3d38676c86fd920b2"
   dependencies:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.2"
-    scheduler "^0.13.1"
+    scheduler "^0.13.6"
 
 react-select@^2.1.2:
   version "2.4.1"
@@ -5209,16 +5161,7 @@ react-transition-group@^2.2.1, react-transition-group@^2.3.1:
     prop-types "^15.6.2"
     react-lifecycles-compat "^3.0.4"
 
-react@^16.4.1:
-  version "16.8.4"
-  resolved "https://registry.yarnpkg.com/react/-/react-16.8.4.tgz#fdf7bd9ae53f03a9c4cd1a371432c206be1c4768"
-  dependencies:
-    loose-envify "^1.1.0"
-    object-assign "^4.1.1"
-    prop-types "^15.6.2"
-    scheduler "^0.13.4"
-
-react@^16.8.6:
+react@^16.8.3, react@^16.8.6:
   version "16.8.6"
   resolved "https://registry.yarnpkg.com/react/-/react-16.8.6.tgz#ad6c3a9614fd3a4e9ef51117f54d888da01f2bbe"
   dependencies:
@@ -5338,6 +5281,10 @@ regenerator-runtime@^0.12.0:
 regenerator-runtime@^0.13.1:
   version "0.13.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.1.tgz#522ea2aafd9200a00eee143dc14219a35a0f3991"
+
+regenerator-runtime@^0.13.2:
+  version "0.13.2"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.2.tgz#32e59c9a6fb9b1a4aff09b4930ca2d4477343447"
 
 regenerator-transform@^0.13.4:
   version "0.13.4"
@@ -5623,7 +5570,7 @@ sax@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
 
-scheduler@^0.13.1, scheduler@^0.13.3, scheduler@^0.13.4:
+scheduler@^0.13.3:
   version "0.13.4"
   resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.13.4.tgz#8fef05e7a3580c76c0364d2df5e550e4c9140298"
   dependencies:
@@ -6405,6 +6352,6 @@ yargs@^12.0.2:
     y18n "^3.2.1 || ^4.0.0"
     yargs-parser "^11.1.1"
 
-yoga-layout-prebuilt@1.9.3:
+yoga-layout-prebuilt@^1.9.3:
   version "1.9.3"
   resolved "https://registry.yarnpkg.com/yoga-layout-prebuilt/-/yoga-layout-prebuilt-1.9.3.tgz#11e3be29096afe3c284e5d963cc2d628148c1372"
