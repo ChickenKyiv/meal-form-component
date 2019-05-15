@@ -694,11 +694,17 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.3.4":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1":
   version "7.3.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.3.4.tgz#73d12ba819e365fcf7fd152aed56d6df97d21c83"
   dependencies:
     regenerator-runtime "^0.12.0"
+
+"@babel/runtime@^7.4.4":
+  version "7.4.4"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.4.tgz#dc2e34982eb236803aa27a07fea6857af1b9171d"
+  dependencies:
+    regenerator-runtime "^0.13.2"
 
 "@babel/template@^7.0.0", "@babel/template@^7.1.0", "@babel/template@^7.2.2", "@babel/template@^7.4.0":
   version "7.4.0"
@@ -5181,11 +5187,11 @@ react-dom@16.8.6:
     prop-types "^15.6.2"
     scheduler "^0.13.6"
 
-react-final-form@^4.0.2:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/react-final-form/-/react-final-form-4.1.0.tgz#4e1b513de164771b2b824f3fb9c0548014255971"
+react-final-form@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/react-final-form/-/react-final-form-5.0.0.tgz#346af706ee39aa08bb8bab8d3f3770628498f791"
   dependencies:
-    "@babel/runtime" "^7.3.4"
+    "@babel/runtime" "^7.4.4"
 
 react-image@^2.0.0, react-image@^2.1.1:
   version "2.1.1"
@@ -5400,6 +5406,10 @@ regenerator-runtime@^0.11.0:
 regenerator-runtime@^0.12.0:
   version "0.12.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
+
+regenerator-runtime@^0.13.2:
+  version "0.13.2"
+  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.13.2.tgz#32e59c9a6fb9b1a4aff09b4930ca2d4477343447"
 
 regenerator-transform@^0.13.4:
   version "0.13.4"
