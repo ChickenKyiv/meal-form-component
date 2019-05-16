@@ -694,13 +694,7 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1":
-  version "7.3.4"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.3.4.tgz#73d12ba819e365fcf7fd152aed56d6df97d21c83"
-  dependencies:
-    regenerator-runtime "^0.12.0"
-
-"@babel/runtime@^7.4.4":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.4":
   version "7.4.4"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.4.tgz#dc2e34982eb236803aa27a07fea6857af1b9171d"
   dependencies:
@@ -5194,8 +5188,8 @@ react-dom@16.8.6:
     scheduler "^0.13.6"
 
 react-final-form@^5.0.0:
-  version "5.0.0"
-  resolved "https://registry.yarnpkg.com/react-final-form/-/react-final-form-5.0.0.tgz#346af706ee39aa08bb8bab8d3f3770628498f791"
+  version "5.0.2"
+  resolved "https://registry.yarnpkg.com/react-final-form/-/react-final-form-5.0.2.tgz#21d673d2072ffdb192eb1ccb216b14ad780acd03"
   dependencies:
     "@babel/runtime" "^7.4.4"
 
@@ -5408,10 +5402,6 @@ regenerator-runtime@0.13.1:
 regenerator-runtime@^0.11.0:
   version "0.11.1"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.11.1.tgz#be05ad7f9bf7d22e056f9726cee5017fbf19e2e9"
-
-regenerator-runtime@^0.12.0:
-  version "0.12.1"
-  resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.12.1.tgz#fa1a71544764c036f8c49b13a08b2594c9f8a0de"
 
 regenerator-runtime@^0.13.2:
   version "0.13.2"
