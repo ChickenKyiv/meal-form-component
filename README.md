@@ -4,7 +4,6 @@
 - [ ] switch from reactstrap to ant design
 
 
-<!--
 This is a separated module, related with [recipe-antd](https://github.com/ChickenKyiv/recipe-antd) repository.
 
 Main goal is to separate development process and have a separated place, where we can develop the logic of default components and then use them into our.
@@ -30,7 +29,6 @@ Stretch goals:
 - [ ] separated components
 - [ ] separated and only HOC is connected to antd
 - [ ] will it work with our Meal Calendar repository as well?
--->
 
 <!--
 [![Build Status](https://travis-ci.org/GroceriStar/showcase.svg?branch=master)](https://travis-ci.org/GroceriStar/showcase)
