@@ -43,7 +43,7 @@
     "rollup-plugin-node-resolve": "5.2.0",
     "rollup-plugin-replace": "2.2.0",
     "shx": "0.3.2",
-    "standard": "13.0.2"
+    "standard": "14.0.0"
   },
   "dependencies": {
     "@groceristar/cards-wrapper": "^1.0.13",
