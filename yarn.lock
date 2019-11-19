@@ -784,13 +784,7 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
-"@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.5":
-  version "7.4.5"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.4.5.tgz#582bb531f5f9dc67d2fcb682979894f75e253f12"
-  dependencies:
-    regenerator-runtime "^0.13.2"
-
-"@babel/runtime@^7.5.5":
+"@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.3.1", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.5":
   version "7.6.3"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.3.tgz#935122c74c73d2240cafd32ddb5fc2a6cd35cf1f"
   dependencies:
@@ -6253,11 +6247,11 @@ react-dom@16.12.0:
     scheduler "^0.18.0"
 
 react-final-form@^6.0.0:
-  version "6.3.0"
-  resolved "https://registry.yarnpkg.com/react-final-form/-/react-final-form-6.3.0.tgz#b85ae123a3796b3e0c8f56033c8a5037f4497e76"
+  version "6.3.1"
+  resolved "https://registry.yarnpkg.com/react-final-form/-/react-final-form-6.3.1.tgz#d4b72a81892b2ebc46ea053d6b11b361d063ddf8"
   dependencies:
     "@babel/runtime" "^7.4.5"
-    ts-essentials "^2.0.8"
+    ts-essentials "^3.0.2"
 
 react-image@^2.0.0, react-image@^2.1.1:
   version "2.2.1"
@@ -7669,9 +7663,9 @@ tree-kill@^1.2.1:
   version "1.2.1"
   resolved "https://registry.yarnpkg.com/tree-kill/-/tree-kill-1.2.1.tgz#5398f374e2f292b9dcc7b2e71e30a5c3bb6c743a"
 
-ts-essentials@^2.0.8:
-  version "2.0.10"
-  resolved "https://registry.yarnpkg.com/ts-essentials/-/ts-essentials-2.0.10.tgz#c44ebe16ee8089c6cbb9a423ed14f700dd4fe58e"
+ts-essentials@^3.0.2:
+  version "3.0.4"
+  resolved "https://registry.yarnpkg.com/ts-essentials/-/ts-essentials-3.0.4.tgz#e783fc31ddce38e19429d2e7171d1c42654f3715"
 
 tslib@1.9.3:
   version "1.9.3"
