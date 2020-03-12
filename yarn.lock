@@ -8099,8 +8099,8 @@ yargs@^3.19.0:
     y18n "^3.2.0"
 
 yarn@^1.16.0:
-  version "1.19.1"
-  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.19.1.tgz#14b92410dd1ba5bab87a12b4a3d807f4569bea97"
+  version "1.22.4"
+  resolved "https://registry.yarnpkg.com/yarn/-/yarn-1.22.4.tgz#01c1197ca5b27f21edc8bc472cd4c8ce0e5a470e"
 
 yoga-layout-prebuilt@1.9.3:
   version "1.9.3"
