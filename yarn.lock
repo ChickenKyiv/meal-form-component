@@ -1833,13 +1833,13 @@ atob@^2.1.1:
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
 
 availity-reactstrap-validation@^2.5.1:
-  version "2.6.0"
-  resolved "https://registry.yarnpkg.com/availity-reactstrap-validation/-/availity-reactstrap-validation-2.6.0.tgz#101fd2e8c196166d249f9fa24bfc7538640def0a"
+  version "2.6.1"
+  resolved "https://registry.yarnpkg.com/availity-reactstrap-validation/-/availity-reactstrap-validation-2.6.1.tgz#7a682322da18db63aeca10b9494cf0338688cf4c"
   dependencies:
     babel-runtime "^6.26.0"
     classnames "^2.2.6"
-    dayjs "^1.8.13"
     lodash "^4.17.10"
+    moment "^2.22.2"
     prop-types "^15.6.2"
 
 aws-sign2@~0.7.0:
@@ -5113,7 +5113,7 @@ mkdirp@^0.5.0, mkdirp@^0.5.1:
   dependencies:
     minimist "0.0.8"
 
-moment@2.x, moment@^2.24.0:
+moment@2.x, moment@^2.22.2, moment@^2.24.0:
   version "2.24.0"
   resolved "https://registry.yarnpkg.com/moment/-/moment-2.24.0.tgz#0d055d53f5052aa653c9f6eb68bb5d12bf5c2b5b"
 
