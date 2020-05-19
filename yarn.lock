@@ -6985,11 +6985,15 @@ react-final-form@^6.0.0:
     "@babel/runtime" "^7.4.5"
     ts-essentials "^2.0.8"
 
-react-image@^2.0.0, react-image@^2.1.1:
+react-image@^2.0.0:
   version "2.2.1"
   resolved "https://registry.yarnpkg.com/react-image/-/react-image-2.2.1.tgz#2aa7832be93023e918adae66b0d1b37d06eed293"
   dependencies:
     prop-types "15.7.2"
+
+react-image@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/react-image/-/react-image-4.0.0.tgz#328ed515d0f5a39feb7a3f1f14709b07c9eda97a"
 
 react-input-autosize@^2.2.1:
   version "2.2.1"
