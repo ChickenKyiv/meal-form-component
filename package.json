@@ -35,7 +35,7 @@
     "enzyme-adapter-react-16": "1.15.1",
     "jest": "25.2.7",
     "react": "16.13.1",
-    "react-dom": "16.13.1",
+    "react-dom": "19.2.7",
     "regenerator-runtime": "0.13.3",
     "rollup": "2.6.0",
     "rollup-plugin-babel": "4.3.3",
@@ -60,7 +60,7 @@
   },
   "peerDependencies": {
     "react": "^16.8.1",
-    "react-dom": "^16.8.1"
+    "react-dom": "^16.8.1 || ^19.0.0"
   },
   "publishConfig": {
     "access": "public"
